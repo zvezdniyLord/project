@@ -1,6 +1,4 @@
 "use strict";
 
-const isCheck = true,
-      isClose = false;
-
-console.log(isCheck && !isClose);
+const numberOfFilms = prompt('Сколько фильмов вы уже посмотрели?', '');
+console.log(numberOfFilms);
